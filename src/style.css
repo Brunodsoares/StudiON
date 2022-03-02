@@ -1,49 +1,74 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap');
 
 * {
-    box-sizing: border-box
+    box-sizing: border-box; /* utilizar o espaço interno do conteudo como padding */
 }
 
-html {
+:root {
+    --color-primary: #ffc500; /* variavel de cor */
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
+    font-size: 16px; 
 }
 body {
     margin: 0;
+    padding-top: 7.75rem;
 }
 
 ul {
-    display: flex;
-    list-style: none;
-    padding-left: 0;
-}
-
-li {
-    margin-right: 0.625rem;
+    display: flex; /* coloca uma caixa do lado da outra*/
+    list-style: none; /* remove o icone da lista */
+    padding-left: 0; /* posição  */
 }
 
 .navbar {
-    position: fixed;
-    display: grid;
-    grid-template-columns: 1fr 9fr;
+    position: fixed; /* deixa caixa fixa na pagina */
+    display: grid; /* estilo de display*/
+    grid-template-columns: 1fr 9fr; /* especificando os valores da coluna por fração */
     align-items: center;
-    top: 0;
+    top: 0; /* posição */
     left: 0;
+        
+    width: 100vw; /* margens relacionado a caixa */
+    height: 7.75rem;
+    padding: 0 1rem; 
 
-    
-    width: 100vw;
-    padding: 0 1rem;
-
-    
-    background-color: #000;
-    color: #fff;
+    background-color: #000; /* define a cor de fundo */
+    color: #fff; /* cor da letra */
 }
 
 .navbar__links {
-    justify-self: end;
-
+    justify-self: end; /* alinhar itens dentro do grid*/
+    padding-right: 3rem;    
 }
-.navbar__links a {
+
+.navbar__links li {
+    font-size: .875rem;
+    margin-left: 3rem;
+    text-transform: uppercase; /* ajuda a manipula o texto */
+}
+
+.navbar__links a { /* estilização dos links  */
+    font-weight: 300;
     color: #fff;
     text-decoration: none;
 }
+
+.navbar__links a:hover{
+    color: var(--color-primary)
+}
+.logo-studion{
+    font-size: 2.375rem;
+    font-weight: 900;
+    line-height: 1ch;
+    text-transform: uppercase;
+    text-align: right;
+}
+.logo-studion__subtitle{
+    font-size: .875rem;
+    font-weight: 300;
+    
+}
+.copy--primary{
+    color: var(--color-primary)
+}
+
