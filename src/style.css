@@ -21,6 +21,11 @@ main,
 footer{
     overflow-x: hidden;
 }
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
 ul {
     display: flex; /* coloca uma caixa do lado da outra*/
     list-style: none; /* remove o icone da lista */
@@ -30,11 +35,17 @@ ul {
 .navbar {
     position: fixed; /* deixa caixa fixa na pagina */
     z-index: 1;
+    top: 0; /* posição */
+    left: 0;
+    width: 100%;
+    background-color: #000; /* define a cor de fundo */
+    color: #fff; /* cor da letra */
+}
+.navbar__container {
     display: grid; /* estilo de display*/
     grid-template-columns: 1fr 9fr; /* especificando os valores da coluna por fração */
     align-items: center;
-    top: 0; /* posição */
-    left: 0;
+    
         
     width: 100vw; /* margens relacionado a caixa */
     height: 7.75rem;
@@ -43,10 +54,9 @@ ul {
     background-color: #000; /* define a cor de fundo */
     color: #fff; /* cor da letra */
 }
-
 .navbar__links {
     justify-self: end; /* alinhar itens dentro do grid*/
-    padding-right: 3rem;    
+    padding-right: 3rem;  
 }
 
 .navbar__links li {
@@ -86,7 +96,7 @@ ul {
 }
 .slide {
     position: relative;
-    height: calc(100vh - 7.75rem);
+    height: calc(90vh - 7.75rem);
 }
 .slide__background-image {
     width: 100%;
@@ -132,7 +142,7 @@ ul {
     border-color: var(--color-primary);
     background-color: var(--color-primary);
     color: #fff;
-    text-transform: uppercase;
+    text-transform: uppercase; 
 }
 #counter {
     background-color: var(--color-primary);
@@ -142,7 +152,6 @@ ul {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     place-items: center;
-    margin: 0;
     padding: 4.375rem 1rem;
 }
 .counter__container h3 {
@@ -154,10 +163,13 @@ ul {
 }
 .institutional {
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: auto auto;
     gap: 3.125rem;
     align-items: center;
     padding: 4.375rem;
+}
+.institutional__image {
+    max-width: 550px;
 }
 .institutional__copy {
     padding: 0 1.875rem;
@@ -183,4 +195,5 @@ ul {
 .btn--institutional {
     color: var(--color-copy);
     background: unset;
+    box-shadow: 0 1rem 1rem #0006;
 }
