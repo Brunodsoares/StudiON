@@ -142,11 +142,11 @@ ul {
     border-color: var(--color-primary);
     background-color: var(--color-primary);
     color: #fff;
-    text-transform: uppercase; 
 }
 #counter {
     background-color: var(--color-primary);
     color: #fff;
+    text-transform: uppercase; 
 }
 .counter__container {
     display: grid;
