@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&family=Roboto&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/fontawesome.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
 
 * {
     box-sizing: border-box; /* utilizar o espaço interno do conteudo como padding */
@@ -241,4 +243,26 @@ ul {
     color: var(--color-copy);
     border-color: var(--color-copy);
     background: unset;    
+}
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 0 1rem;
+}
+.footer__container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    align-items: center;
+}
+.footer .logo-studion {
+    justify-self: start;
+}
+.logo-studion__subtitle {
+    display: block;
+}
+.footer__form {
+    justify-self: center;
+}
+.footer__social {
+    justify-self: end;
 }
