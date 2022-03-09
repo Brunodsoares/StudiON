@@ -88,6 +88,10 @@ ul {
     font-weight: 300;
     
 }
+.logo-studion a {
+    color: unset;
+    text-decoration: unset;
+}
 .copy--primary {
     color: var(--color-primary)
 }
