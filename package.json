@@ -1,9 +1,10 @@
 {
   "name": "projeto-studion",
   "version": "0.0.1",
-  "description": "homepage for Studion Events and services.\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C provider ans services.",
-  "main": "src/index.html",
+  "description": "Homepage for studion events provider and services",
+  "main": "index.js",
   "scripts": {
+    "start": "npx live-server src/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +23,6 @@
   },
   "homepage": "https://github.com/Brunodsoares/StudiON#readme",
   "devDependencies": {
-    "live-server": "^1.2.1"
+    "live-server": "^1.1.0"
   }
 }
