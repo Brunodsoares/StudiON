@@ -1,0 +1,56 @@
+.navbar {
+    position: fixed;
+    /* deixa caixa fixa na pagina */
+    z-index: 1;
+    top: 0;
+    /* posição */
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    /* define a cor de fundo */
+    color: #fff;
+    /* cor da letra */
+}
+
+.navbar__container {
+    display: grid;
+    /* estilo de display*/
+    grid-template-columns: 1fr 9fr;
+    /* especificando os valores da coluna por fração */
+    align-items: center;
+
+
+    width: 100vw;
+    /* margens relacionado a caixa */
+    height: 7.75rem;
+    padding: 0 1rem;
+
+    background-color: #000;
+    /* define a cor de fundo */
+    color: #fff;
+    /* cor da letra */
+}
+
+.navbar__links {
+    justify-self: end;
+    /* alinhar itens dentro do grid*/
+    padding-right: 3rem;
+}
+
+.navbar__links li {
+    font-size: .875rem;
+    margin-left: 3rem;
+    text-transform: uppercase;
+    /* ajuda a manipula o texto */
+}
+
+.navbar__links a {
+    /* estilização dos links  */
+    font-weight: 300;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar__links a:hover {
+    color: var(--color-primary)
+}
