@@ -1,13 +1,11 @@
 .navbar {
-    position: fixed;
+    position: absolute;
     /* deixa caixa fixa na pagina */
     z-index: 1;
     top: 0;
     /* posição */
     left: 0;
     width: 100%;
-    background-color: #000;
-    /* define a cor de fundo */
     color: #fff;
     /* cor da letra */
 }
@@ -23,11 +21,9 @@
     width: 100vw;
     /* margens relacionado a caixa */
     height: 7.75rem;
+     
     padding: 0 1rem;
-
-    background-color: #000;
-    /* define a cor de fundo */
-    color: #fff;
+     color: #fff;
     /* cor da letra */
 }
 
