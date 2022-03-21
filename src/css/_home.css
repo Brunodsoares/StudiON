@@ -6,6 +6,7 @@
 .slide {
     position: relative  ;
     height: 90vh;
+    overflow: hidden;
 }
 
 .slide__background-image {
