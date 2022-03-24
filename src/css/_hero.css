@@ -1,19 +1,21 @@
 .hero {
     position: relative;
-    height: 34.625rem;
+    height: 29.625rem;
+    overflow: hidden;
 }
 .hero__background {
+    width: 100%;
     position: absolute;
     z-index: -1;
     object-fit: contain;
     object-position: center;  
 }
 .hero__copy {
-    position: absolute;
+    position:absolute;
     bottom: 0;
     right: 0;
     width: 57vw;
-    padding: 7rem 1.875rem;
+    padding: 3rem 1.875rem; 
 }
 .hero__copy h2 {
     margin: 0;
