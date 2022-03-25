@@ -1,2 +1,5 @@
-node_modules/
+node_modules
+_design/home
 _design/
+package-lock.json
+package.json

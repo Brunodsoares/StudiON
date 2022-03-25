@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&family=Roboto:wght@400;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/fontawesome.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+/*fontes*/
+
+@import "_variables.css";
+@import "_base.css";
+@import "_utils.css";
+@import "_btn.css";
+
+@import "_navbar.css";
+@import "_hero.css";
+@import "_footer.css";
+/*Componentes*/
+
+@import "_home.css";
+@import "_enterprise.css";
+@import "_events.css";
+@import "_gallery.css";
+@import "_testimonials.css";
+@import "_contacts.css";
+/*Paginas*/
