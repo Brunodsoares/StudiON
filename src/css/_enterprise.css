@@ -1,14 +1,25 @@
 .enterprise {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        padding-top: 4rem;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
    
 }
-.enterprise img {
-   position:relative
+.enterprise__text {
+   padding: 8rem 3rem 0 3rem;
 }
-.enterprise__container {
-   width: 350px;
-   
 
+.enterprise__text h3 {
+   line-height: 31px;
+   font-weight: 700;
+   font-family: 'Montserrat';
+   text-transform: uppercase;
+}
+
+.sponsors {
+   max-width: 100%;
+   height: 579px;
+   background-color: var(--color-primary);
+}
+
+.video iframe{
+   margin: 6rem 20%;
 }

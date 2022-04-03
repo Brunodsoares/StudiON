@@ -28,9 +28,16 @@
 }
 
 .navbar__links {
+    display: none;
     justify-self: end;
     /* alinhar itens dentro do grid*/
     padding-right: 3rem;
+}
+
+@media screen and (min-width: 1280px) {
+    .navbar__links {
+        display: flex;
+    }
 }
 
 .navbar__links li {
@@ -49,4 +56,21 @@
 
 .navbar__links a:hover {
     color: var(--color-primary)
+}
+
+.navbar__menu-btn {
+    cursor: pointer;
+    font-size: 2rem;
+    width: fit-content;
+    color: #fff;
+    background: unset;
+    border: unset;
+    justify-self: end;
+
+}
+
+@media screen and (min-width: 1280px) {
+    .navbar__menu-btn {
+        display: none;
+    }
 }
