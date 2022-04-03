@@ -23,6 +23,12 @@
     transform: rotate(135deg);
 }
 
+.slide {
+    position: relative  ;
+    height: 90vh;
+    overflow: hidden;
+}
+
 .slider__next-arrow::before,
 .slider__prev-arrow::before {
     content: "";
