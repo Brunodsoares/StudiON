@@ -1,7 +1,6 @@
 .enterprise {
    display: grid;
    grid-template-columns: 1fr 1fr;
-   
 }
 .enterprise__text {
    padding: 8rem 3rem 0 3rem;
@@ -20,6 +19,20 @@
    background-color: var(--color-primary);
 }
 
-.video iframe{
-   margin: 6rem 20%;
+.sponsors h2 {
+   margin: 0;
+   text-align: center;
+   padding-top: 75px;
+   text-transform: uppercase;
+}
+.sponsors__logos{
+   display: flex;
+   justify-content: center;
+}
+
+.video{
+   padding: 4rem 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
