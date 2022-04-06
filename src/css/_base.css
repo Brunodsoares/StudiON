@@ -1,62 +1,61 @@
 * {
-    box-sizing: border-box;
-    /* utilizar o espaço interno do conteudo como padding */
+  box-sizing: border-box;
+  /* utilizar o espaço interno do conteudo como padding */
 }
-    /*Mobile*/
-    :root {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 4.25vw;
-        color: var(--color-copy);
+/*Mobile*/
+:root {
+  font-family: "Montserrat", sans-serif;
+  font-size: 4.25vw;
+  color: var(--color-copy);
 }
-    /*Tablet*/
-@media screen and (min-width: 720px){ 
-    :root{
-        font-size: 2.25vw;
-    }
+/*Tablet*/
+@media screen and (min-width: 720px) {
+  :root {
+    font-size: 2.25vw;
+  }
 }
-    /*Desketop*/
+/*Desketop*/
 @media screen and (min-width: 1280px) {
-    :root{
-        font-size: 16px;
-    }
+  :root {
+    font-size: 16px;
+  }
 }
 
 body {
-    margin: 0;
+  margin: 0;
 }
 
 header,
 main,
 footer {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 ul {
-    display: flex;
-    /* coloca uma caixa do lado da outra*/
-    list-style: none;
-    /* remove o icone da lista */
-    padding-left: 0;
-    /* posição  */
+  display: flex;
+  /* coloca uma caixa do lado da outra*/
+  list-style: none;
+  /* remove o icone da lista */
+  padding-left: 0;
+  /* posição  */
 }
 .container {
-    max-width: 1140px;
-    margin: 0 auto;
+  max-width: 1140px;
+  margin: 0 auto;
 }
 .logo-studion {
-    font-size: 2.375rem;
-    font-weight: 900;
-    line-height: 1ch;
-    text-transform: uppercase;
-    text-align: right;
+  font-size: 2.375rem;
+  font-weight: 900;
+  line-height: 1ch;
+  text-transform: uppercase;
+  text-align: right;
 }
 
 .logo-studion__subtitle {
-    font-size: .875rem;
-    font-weight: 300;
-
+  font-size: 0.875rem;
+  font-weight: 300;
 }
 
 .logo-studion a {
-    color: unset;
-    text-decoration: unset;
+  color: unset;
+  text-decoration: unset;
 }

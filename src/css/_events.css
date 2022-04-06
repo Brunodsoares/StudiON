@@ -1,41 +1,39 @@
 .events {
-    padding: 5rem 0;
-    display: flex;
-    flex-direction: column; 
+  padding: 5rem 0;
+  display: flex;
+  flex-direction: column;
 }
 
-
 .events__copy {
-    display: grid;
-    grid-template-columns: 2fr 5fr 3fr;
-    align-items: center;
-    border-bottom: 3px solid rgb(240, 240, 240);
+  display: grid;
+  grid-template-columns: 2fr 5fr 3fr;
+  align-items: center;
+  border-bottom: 3px solid rgb(240, 240, 240);
 }
 
 .events__copy img {
-    margin-top: 2.875rem;
-    margin-bottom: 2.875rem;
+  margin-top: 2.875rem;
+  margin-bottom: 2.875rem;
 }
 .events__copy h3 {
-    font-size: 1.25rem;
-    font-weight: 700;
-    line-height: 1.125rem;
-    letter-spacing: 0.25rem;
-    color: var(--color-primary) ;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.125rem;
+  letter-spacing: 0.25rem;
+  color: var(--color-primary);
 }
 
 .events__copy h6 {
-    font-size: 0.9375rem;
-    font-weight: 700;
-    letter-spacing: 0.1875rem;
-    text-transform: uppercase;
-    margin: 0;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  letter-spacing: 0.1875rem;
+  text-transform: uppercase;
+  margin: 0;
 }
 
 .events__copy p {
-    font-size: 1.0625rem;
-    line-height: 1.6875rem;
-    font-weight: 400;
-    color: #000;
-     
+  font-size: 1.0625rem;
+  line-height: 1.6875rem;
+  font-weight: 400;
+  color: #000;
 }
