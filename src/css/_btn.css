@@ -1,14 +1,14 @@
 .btn {
-    cursor: pointer;
-    padding: 1rem 2.5rem;
-    color: var(--color-primary);
-    border: .125rem solid #fff;
-    border-radius: 5rem;
-    background: unset;
-    font-size: .9375rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    transition: 0.5s all ease;
+  cursor: pointer;
+  padding: 1rem 2.5rem;
+  color: var(--color-primary);
+  border: 0.125rem solid #fff;
+  border-radius: 5rem;
+  background: unset;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s all ease;
 }
 
 .btn:hover,
@@ -17,37 +17,37 @@
 .btn--institutional,
 .btn--contact,
 .btn--events {
-    border-color: var(--color-primary);
-    background-color: var(--color-primary);
-    color: #fff;
+  border-color: var(--color-primary);
+  background-color: var(--color-primary);
+  color: #fff;
 }
 
 .btn--institutional,
 .btn--quote,
 .btn--events {
-    display: block;
-    margin: 0 auto;
+  display: block;
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 1280px) {
-    .btn--institutional,
-    .btn--quote {
-    display: inline;    
-    }
+  .btn--institutional,
+  .btn--quote {
+    display: inline;
+  }
 }
 
 .btn--institutional:hover,
 .btn--contact:hover,
 .btn--events {
-    color: var(--color-copy);
-    background: unset;
-    box-shadow: 0 1rem 1rem #0006;
+  color: var(--color-copy);
+  background: unset;
+  box-shadow: 0 1rem 1rem #0006;
 }
-.btn--contatct:hover{
-    color: #fff;
+.btn--contatct:hover {
+  color: #fff;
 }
 .btn--quote {
-    color: var(--color-copy);
-    border-color: var(--color-copy);
-    background: unset;
+  color: var(--color-copy);
+  border-color: var(--color-copy);
+  background: unset;
 }
