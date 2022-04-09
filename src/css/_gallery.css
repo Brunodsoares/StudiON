@@ -1,0 +1,72 @@
+.main__gallery {
+    background-color: #000;
+}
+
+.gallery {
+    margin-top: 9.8125rem;
+    margin-bottom: 9.375rem;
+}
+
+.gallery__box {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    grid-template-areas: 
+    "photo01 photo02 photo03 photo04"
+    "photo05 photo02 photo03 photo08"
+    "photo05 photo02 photo07 photo08"
+    "photo05 photo06 photo07 photo08"
+    "photo09 photo06 photo10 photo08"
+    ;
+}
+
+.gallery__box img {
+    width: 15rem;
+    padding-top: 2rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+#photo01 {
+    grid-area: photo01;
+    height: 180px;
+}
+#photo02{
+    grid-area: photo02;
+    height: 350px;
+}
+#photo03{
+    grid-area: photo03;
+    height: 280px;    
+}
+#photo04{
+    grid-area: photo04;
+    height: 200px;
+}
+#photo05{
+    grid-area: photo05;
+    height: 255px;
+}
+#photo06{
+    grid-area: photo06;
+    height: 250px;
+}
+#photo07{
+    grid-area: photo07;
+    height: 175px;
+}
+#photo08{
+    grid-area: photo08;
+    height: 440px;
+}
+#photo09{
+    grid-area: photo09;
+    height: 255px;
+}
+#photo10{
+    grid-area: photo10;
+    height: 255px;
+}
