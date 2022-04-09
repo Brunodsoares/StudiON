@@ -1,0 +1,41 @@
+.depomain {
+  background-color: var(--color-primary);
+}
+
+.deposlider {
+  padding: 6rem 0;
+  background-color: var(--color-primary);
+}
+
+#depo__slide,
+#depo__slide2,
+#depo__slide3 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.depo__copy h2 {
+  color: #000;
+  font-size: 3.125rem;
+  font-weight: 700;
+  letter-spacing: -0.125rem;
+  margin-bottom: -3.75rem;
+}
+.depo__copy small {
+  color: #000;
+  font-size: 0.875rem;
+  line-height: 7.5rem;
+  letter-spacing: 0.1875rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.depo__copy p {
+  color: #000;
+  height: 4.6875rem;
+  font-size: 0,9375rem;
+  line-height: 1,875rem;
+  font-weight: 400;
+  text-align: center;
+}
